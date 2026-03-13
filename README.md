@@ -3,11 +3,26 @@
 # Data peprocessing
 Data preprocessing pipeline applied to the AMI dataset before fine-tuning the summarization model.
 
-# Dataset
-Source: AMI Meeting Corpus via HuggingFace
-Config: ihm (individual headset microphone)
-Splits: train, validation, test
-Key columns used: meeting_id, speaker_id, text, begin_time, end_time, summary
+## Dataset
+
+**Source:** AMI Meeting Corpus via HuggingFace  
+**Configuration:** `ihm` (individual headset microphone)
+
+**Data Splits**
+- `train`
+- `validation`
+- `test`
+
+**Key Columns Used**
+
+| Column | Description |
+|------|-------------|
+| `meeting_id` | Unique identifier for each meeting |
+| `speaker_id` | Identifier for the speaker |
+| `text` | Transcribed speech utterance |
+| `begin_time` | Start time of the utterance in the meeting |
+| `end_time` | End time of the utterance in the meeting |
+| `summary` | Reference meeting summary |
 
 # Cleaning Pipeline
 The full cleaning is applied as a single function clean_ami_dataframe() which processes each split independently.
