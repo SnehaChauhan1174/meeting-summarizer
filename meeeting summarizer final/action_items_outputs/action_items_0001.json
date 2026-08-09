@@ -1,0 +1,28 @@
+{
+  "action_items": [
+    {
+      "task": "Work on the actual working design of the remote control",
+      "owner": "Speaker 0 (Industrial Designer, David)",
+      "owner_name": "David",
+      "deadline": "Before the next meeting in 30 minutes",
+      "priority": "Medium",
+      "evidence": "Assigned by project manager"
+    },
+    {
+      "task": "Think about the technical functions and requirements of the remote control",
+      "owner": "Speaker 1 (User Interface Designer, Greg)",
+      "owner_name": "Greg",
+      "deadline": "Before the next meeting in 30 minutes",
+      "priority": "Medium",
+      "evidence": "Assigned by project manager"
+    },
+    {
+      "task": "Think about the marketing requirements of the remote control",
+      "owner": "Speaker 2 (Marketing Executive, Andrew)",
+      "owner_name": "Andrew",
+      "deadline": "Before the next meeting in 30 minutes",
+      "priority": "Medium",
+      "evidence": "Assigned by project manager"
+    }
+  ]
+}

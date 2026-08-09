@@ -1,0 +1,13 @@
+streamlit
+fastapi
+uvicorn
+python-multipart
+requests
+groq
+soundfile
+numpy
+scipy
+jiwer
+rouge_score
+sacrebleu
+python-dotenv

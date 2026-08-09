@@ -1,0 +1,281 @@
+{
+  "created_at": "15-07-2026 10:00:00",
+  "transcript": [
+    {
+      "start": 0,
+      "end": 12,
+      "speaker": "Speaker 1",
+      "text": "Morning everyone, this is Vikram. Let's give it a few seconds. Rahul, are you joining?"
+    },
+    {
+      "start": 12,
+      "end": 21,
+      "speaker": "Speaker 6",
+      "text": "Hi, this is Rahul. Yeah, I'm here. Sorry, VPN disconnected."
+    },
+    {
+      "start": 21,
+      "end": 34,
+      "speaker": "Speaker 1",
+      "text": "No problem. Let's start. Nitya, can you go first?"
+    },
+    {
+      "start": 34,
+      "end": 58,
+      "speaker": "Speaker 2",
+      "text": "This is Nitya. Sure, I finished the customer validation flow. Found one issue with duplicate records though."
+    },
+    {
+      "start": 58,
+      "end": 75,
+      "speaker": "Speaker 1",
+      "text": "Again? Deba, does that sound familiar?"
+    },
+    {
+      "start": 75,
+      "end": 102,
+      "speaker": "Speaker 3",
+      "text": "This is Deba. Yeah, I found the root cause yesterday. Trailing spaces in emails weren't getting trimmed."
+    },
+    {
+      "start": 102,
+      "end": 121,
+      "speaker": "Speaker 4",
+      "text": "That explains why my Agentforce flow kept returning two customers."
+    },
+    {
+      "start": 121,
+      "end": 133,
+      "speaker": "Speaker 3",
+      "text": "Exactly. Sorry about that."
+    },
+    {
+      "start": 133,
+      "end": 152,
+      "speaker": "Speaker 5",
+      "text": "This is Shweta. Quick question. If email is invalid should we still call the API?"
+    },
+    {
+      "start": 152,
+      "end": 173,
+      "speaker": "Speaker 3",
+      "text": "No, Shweta. Validation should stop the flow before the API call."
+    },
+    {
+      "start": 173,
+      "end": 190,
+      "speaker": "Speaker 5",
+      "text": "Got it."
+    },
+    {
+      "start": 190,
+      "end": 213,
+      "speaker": "Speaker 1",
+      "text": "Anshika, apart from that how are things?"
+    },
+    {
+      "start": 213,
+      "end": 242,
+      "speaker": "Speaker 4",
+      "text": "This is Anshika. Hotel search is almost done. I'm changing the response to return price per night because Rahul requested it."
+    },
+    {
+      "start": 242,
+      "end": 253,
+      "speaker": "Speaker 6",
+      "text": "Yeah otherwise the UI labels won't match."
+    },
+    {
+      "start": 253,
+      "end": 279,
+      "speaker": "Speaker 7",
+      "text": "This is Priya. Will that change the response object? I need to update documentation if it does."
+    },
+    {
+      "start": 279,
+      "end": 297,
+      "speaker": "Speaker 4",
+      "text": "Just one field name. I'll send everyone the updated schema."
+    },
+    {
+      "start": 297,
+      "end": 317,
+      "speaker": "Speaker 8",
+      "text": "This is Karan. Please tag me too. I'll update deployment configs if required."
+    },
+    {
+      "start": 317,
+      "end": 340,
+      "speaker": "Speaker 1",
+      "text": "Rahul, what's pending on your side?"
+    },
+    {
+      "start": 340,
+      "end": 370,
+      "speaker": "Speaker 6",
+      "text": "Mostly integration. Waiting for Anshika's latest response. Mobile layout still needs a little work."
+    },
+    {
+      "start": 370,
+      "end": 386,
+      "speaker": "Speaker 9",
+      "text": "This is Aman. The latest design file already has the mobile fixes. I'll resend it."
+    },
+    {
+      "start": 386,
+      "end": 399,
+      "speaker": "Speaker 6",
+      "text": "Perfect, thanks Aman."
+    },
+    {
+      "start": 399,
+      "end": 421,
+      "speaker": "Speaker 7",
+      "text": "Can someone share the Jira number for the duplicate bug?"
+    },
+    {
+      "start": 421,
+      "end": 437,
+      "speaker": "Speaker 3",
+      "text": "It's BUG-248. I'll add today's findings there."
+    },
+    {
+      "start": 437,
+      "end": 458,
+      "speaker": "Speaker 5",
+      "text": "I'll attach my test evidence once the fix is merged."
+    },
+    {
+      "start": 458,
+      "end": 479,
+      "speaker": "Speaker 1",
+      "text": "Sounds good."
+    },
+    {
+      "start": 479,
+      "end": 501,
+      "speaker": "Speaker 8",
+      "text": "Deployment window is still tomorrow evening, right?"
+    },
+    {
+      "start": 501,
+      "end": 511,
+      "speaker": "Speaker 1",
+      "text": "Yes, no changes."
+    },
+    {
+      "start": 511,
+      "end": 535,
+      "speaker": "Speaker 2",
+      "text": "Deba, when do you think you'll push the fix?"
+    },
+    {
+      "start": 535,
+      "end": 557,
+      "speaker": "Speaker 3",
+      "text": "Within an hour if regression passes."
+    },
+    {
+      "start": 557,
+      "end": 573,
+      "speaker": "Speaker 4",
+      "text": "Then I'll start my end-to-end testing after lunch."
+    },
+    {
+      "start": 573,
+      "end": 591,
+      "speaker": "Speaker 6",
+      "text": "Same here. No point testing the old version."
+    },
+    {
+      "start": 591,
+      "end": 609,
+      "speaker": "Speaker 9",
+      "text": "Sorry, I think you're on mute, Priya."
+    },
+    {
+      "start": 609,
+      "end": 629,
+      "speaker": "Speaker 7",
+      "text": "Can you hear me now? I was saying documentation will be updated today."
+    },
+    {
+      "start": 629,
+      "end": 653,
+      "speaker": "Speaker 1",
+      "text": "Yes, loud and clear now."
+    },
+    {
+      "start": 653,
+      "end": 676,
+      "speaker": "Speaker 5",
+      "text": "One more thing. What should happen if lookup returns more than one verified customer?"
+    },
+    {
+      "start": 676,
+      "end": 699,
+      "speaker": "Speaker 4",
+      "text": "The flow should ask the user to choose instead of auto-selecting."
+    },
+    {
+      "start": 699,
+      "end": 716,
+      "speaker": "Speaker 7",
+      "text": "Let's capture that as a story instead of squeezing it into this release."
+    },
+    {
+      "start": 716,
+      "end": 740,
+      "speaker": "Speaker 1",
+      "text": "Agreed. We'll take that in the next sprint."
+    },
+    {
+      "start": 740,
+      "end": 764,
+      "speaker": "Speaker 8",
+      "text": "Infrastructure has been stable since yesterday. No deployment blockers."
+    },
+    {
+      "start": 764,
+      "end": 785,
+      "speaker": "Speaker 2",
+      "text": "Great. I'll rerun all validation scenarios once Deba pushes the fix."
+    },
+    {
+      "start": 785,
+      "end": 809,
+      "speaker": "Speaker 3",
+      "text": "I'll post the PR in Teams and tag everyone."
+    },
+    {
+      "start": 809,
+      "end": 828,
+      "speaker": "Speaker 6",
+      "text": "Please tag me too so I can start integration immediately."
+    },
+    {
+      "start": 828,
+      "end": 852,
+      "speaker": "Speaker 9",
+      "text": "I'll verify the updated screens after Rahul finishes."
+    },
+    {
+      "start": 852,
+      "end": 877,
+      "speaker": "Speaker 1",
+      "text": "Anything urgent before we wrap up?"
+    },
+    {
+      "start": 877,
+      "end": 889,
+      "speaker": "Speaker 5",
+      "text": "Nothing from QA."
+    },
+    {
+      "start": 889,
+      "end": 900,
+      "speaker": "Speaker 1",
+      "text": "Alright everyone, thanks. Let's sync on Teams if anything comes up."
+    }
+  ]
+}
